@@ -1,7 +1,9 @@
 
 # Food Delivery - Free HTML Bootstrap Template
 
-A food delivery design built with Bootstrap with Gulp 4+. Sass, browser-sync.
+Food delivery website template, built with Bootstrap with Gulp 4+. Sass, browser-sync.
+
+[Live Demo](https://wowthemesnet.github.io/template-fooddelivery-bootstrap-html/) | 
 
 [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-fooddelivery-bootstrap-html/)
 
