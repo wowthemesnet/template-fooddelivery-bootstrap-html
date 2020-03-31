@@ -1,0 +1,13 @@
+#my-cart-table {
+    .table th, .table td {
+        vertical-align:middle;
+    }
+}
+.my-cart-icon {
+    position:fixed;
+    bottom:20px;
+    left:30px;
+    border:double medium $beige;
+    padding: 10px 10px;
+    cursor: pointer;
+}

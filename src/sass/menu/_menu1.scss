@@ -1,0 +1,64 @@
+.menu {
+    display: none;  
+    &--is-visible {
+      display: block;
+    }
+  }
+  
+  .item {
+    margin-bottom:50px;
+    @include media-breakpoint-down(sm) {
+      border-top:1px solid $beige;
+      padding:30px;
+      .product-img {
+        margin-bottom:15px;
+      }
+      margin-bottom:20px;
+    }
+    &__header {
+      display: flex;
+      align-items: baseline;
+    }  
+    &__title {
+      font-size:28px;
+      font-weight:700;
+      margin: 0;
+    }  
+    &__dots {
+      flex: 1;
+      border-bottom: 1px dashed #aaa;
+      margin: 0 15px;
+    }  
+    &__price {
+      font-size: 25px;
+      font-weight:400;
+    }
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 35px;  
+    @media (min-width: 768px) {
+      margin-bottom: 60px;
+    }
+  }
+  
+  .button {
+    margin: 5px 15px;
+    padding: 10px 20px;
+    @include media-breakpoint-down(sm) { 
+      padding:10px;
+    }
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    &.button--is-active {
+      border-bottom:1px solid;
+    }
+    &:hover {
+      text-decoration:none;
+    }
+  }

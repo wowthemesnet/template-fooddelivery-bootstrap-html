@@ -1,0 +1,67 @@
+$theme-colors: (
+    "primary": #be8040,
+    "dark": #303030,
+    "beige": #e5e3d6,
+);
+$enable-rounded:   false;
+$beige: #e5e3d6;
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:400,700&display=swap');
+
+
+//import blocks
+@import "hero/hero1.scss";
+@import "hero/hero2.scss";
+@import "menu/menu1.scss";
+@import "cart/cart1.scss";
+@import "footer/footer1.scss";
+
+//general
+body {
+    padding-top:73px;
+    font-family: "Abhaya Libre";
+}
+img {
+    max-width:100%;
+}
+.navbar {
+    padding:10px 0px; 
+    margin: 0 30px;
+    border-bottom: double medium $beige;
+    .navbar-brand img {
+        max-height:40px;
+    }
+}
+.maincontent {
+    border: double medium $beige;
+    border-top:0;
+    margin: 0 30px;
+    padding:80px 0;
+    overflow:hidden;
+}
+.mt-50 {
+    margin-top:50px;
+}
+
+@media (min-width: 768px) {
+    .h-md-100 {
+        height: 100vh;
+    }
+}
+.article {
+    font-size:1.4rem;
+    p {
+        margin-top:1.5rem;
+        margin-bottom:1.5rem;
+    }
+}
+
+.featured-img {
+    margin-left  : -10%;
+    margin-right : -10%;
+    text-align:center;
+}
+.navbar-light .navbar-toggler {
+    border-color: $beige;
+}

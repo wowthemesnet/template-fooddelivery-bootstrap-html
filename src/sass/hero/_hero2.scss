@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+
+.hero2 {
+    min-height:100vh;
+    @include media-breakpoint-down(sm) {
+        min-height:auto;
+    }
+    padding:50px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin:0;
+    h1 {
+        font-family: "Bungee Inline";
+    }
+    .btn-text {
+        font-size:1.5rem;
+        &:hover {
+            text-decoration:none;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        .display-2 {
+            font-size:3rem;
+        }
+    }
+}
