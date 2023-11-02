@@ -1,14 +1,9 @@
 {
-  "name": "template-fooddelivery-bootstrap-html",
+  "name": "el-oasis-menu-website",
   "version": "1.0.0",
-  "description": "Food Delivery HTML Template",
+  "description": "El Oasis Menu Website",
   "author": "Sal",
   "license": "MIT",
-  "homepage": "https://bootstrapstarter.com/bootstrap-templates/template-fooddelivery-bootstrap-html/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wowthemesnet/template-fooddelivery-bootstrap-html.git"
-  },
   "scripts": {
     "start": "gulp",
     "dev": "gulp serve",
